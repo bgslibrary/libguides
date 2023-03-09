@@ -9721,7 +9721,7 @@ $infiniti.getUnboundInsertNodeFull = function(someNode)
 	LibraryThingConnector.info('infiniti: getUnboundInsertNodeFull');
 	LibraryThingConnector.info(someNode);
 	// add SU tab
-	LibraryThingConnector.utils.jQuery('ul.nav-tabs').append('<li><a href="#unbound" data-toggle="tab">More from Syndetics Unbound</a></li>')
+	LibraryThingConnector.utils.jQuery('ul.nav-tabs').append('<li class="syndeticstab"><a href="#unbound" data-toggle="tab">More from Syndetics Unbound</a></li>')
 LibraryThingConnector.utils.jQuery('.tab-content').append('<div class="tab-pane no-padding-top" role="tabpanel" id="unbound"><div id="unbound-widget"></div></div>');
 
 	var insertNode = LibraryThingConnector.utils.jQuery('#unbound-widget').get(0);
